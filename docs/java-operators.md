@@ -14,21 +14,13 @@ int x = 100 + 50;
 Arithmetic operators are used to perform common mathematical operations.
 
 | Operator | Name          | Description                                                  |
-
 | -------- | ------------- | ------------------------------------------------------------ |
-
 | +        | Addition      | Adds together two values                                     |
-
 | -        | Subtraction   | Subtracts one value from another                             |
-
 | *        | Multiplication| Multiplies two values                                        |
-
 | /        | Division      | Divides one value by another                                 |
-
 | %        | Modulus       | Returns the division remainder                               |
-
 | ++       | Increment     | Increases the value of a variable by 1                       |
-
 | --       | Decrement     | Decreases the value of a variable by 1                       |
 
 ### Java Assignment Operators
@@ -36,29 +28,17 @@ Arithmetic operators are used to perform common mathematical operations.
 Assignment operators are used to assign values to variables.
 
 | Operator | Example | Same As     |
-
 | -------- | ------- | ----------- |
-
 | =        | x = 5   | x = 5       |
-
 | +=       | x += 3  | x = x + 3   |
-
 | -=       | x -= 3  | x = x - 3   |
-
 | *=       | x *= 3  | x = x * 3   |
-
 | /=       | x /= 3  | x = x / 3   |
-
 | %=       | x %= 3  | x = x % 3   |
-
 | &=       | x &= 3  | x = x & 3   |
-
 | \|=      | x \|= 3 | x = x \| 3  |
-
 | ^=       | x ^= 3  | x = x ^ 3   |
-
 | >>=      | x >>= 3 | x = x >> 3  |
-
 | <<=      | x <<= 3 | x = x << 3  |
 
 ### Java Comparison Operators
