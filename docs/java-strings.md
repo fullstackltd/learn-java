@@ -114,14 +114,46 @@ System.out.println(txt.replace("H", "J")); // Outputs "Jello World"
 
 ```
 
-## String Concatenation
+## More Immutable Strings
 
-The + operator can be used between strings to combine them. This is called concatenation:
+
+
+## String Trim
+
+The trim() method removes whitespace from both sides of a string:
 
 ```java
 
-String firstName = "John";
-String lastName = "Doe";
-System.out.println(firstName + " " + lastName);
+String txt = "       Hello World        ";
+System.out.println(txt.trim()); // Outputs "Hello World"
 
 ```
+
+## String Format
+
+String format() method returns a formatted string using the given locale, specified format string and arguments.
+
+```java
+
+String name = "John";
+int age = 30;
+String message = String.format("My name is %s. I am %d years old.", name, age);
+System.out.println(message);
+
+```
+
+
+## String Copy
+
+The copyValueOf() method returns a String that represents the characters of the character array.
+
+```java
+
+char[] myString = {'H', 'e', 'l', 'l', 'o'};
+
+String str = "";
+str = str.copyValueOf(myString);
+System.out.println("Returned String: " + str);
+
+```
+
