@@ -2,13 +2,41 @@ public class Application {
 
   public static void main(String[] args) {
 
-    int arr[] = { 10, 20, 30, 40 };
+    // Control flow
+    // control structures
+    // control statements
+    // control constructs
 
-    // arr -> 0x123 (3*4B = 12B)
+    // 1. Sequence
+    // 2. Selection
+    // 3. Repetition
 
-    for (int i = 0; i < arr.length; i++) {
-      System.out.println(arr[i]);
+    // Sequence
+
+    // System.out.println("Hello World");
+    // System.out.println("Hello World");
+    // System.out.println("Hello World");
+
+  
+    // Selection
+    // if statement
+    int a = 10;
+    if (a == 9) {
+      System.out.println("True World");
+    }else{
+      System.out.println("False World");
     }
+
+    // if-else statement
+    // switch statement
+
+    // Repetition
+    // while loop
+    // do-while loop
+    // for loop
+    // for-each loop
+
+    
 
     System.out.println("End of program");
   }
